@@ -58,6 +58,7 @@ body {
 
 .container {
   padding: 15px;
+  position: relative;
 }
 
 .card {
@@ -157,4 +158,21 @@ body {
   height: 44px;
   position: absolute;
   bottom: 0;
+}
+
+/* ball ↓ */
+
+.container-ball {
+  position: relative;
+  margin: 38px;
+}
+
+.ball {
+  background-color: red;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 125px;
 }
