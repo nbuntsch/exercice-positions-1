@@ -1,0 +1,53 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  max-width: 320px;
+  margin: auto;
+  box-shadow: 0 0 50px rgb(0 0 0 / 20%);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  display: block;
+
+  margin: 0 auto;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+/* main ↓ */
+
+.gris {
+  background: #4c4c4c;
+  width: 390px;
+  height: 44px;
+}
