@@ -142,3 +142,19 @@ body {
 }
 
 /* card 5-6 ↓ */
+
+.container-column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  gap: 10px;
+}
+
+.box-rectangle-light-grey {
+  opacity: 58%;
+  width: 175px;
+  height: 44px;
+  position: absolute;
+  bottom: 0;
+}
