@@ -102,6 +102,17 @@ body {
 
 /* card 3 ↓ */
 
+.box-light-grey {
+  width: 320px;
+  height: 165px;
+  opacity: 58%;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
 /* card 4 ↓ */
 
 /* card 5-6 ↓ */
