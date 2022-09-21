@@ -1,0 +1,178 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  max-width: 390px;
+  margin: auto;
+  box-shadow: 0 0 50px rgb(0 0 0 / 20%);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  display: block;
+
+  margin: 0 auto;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+/* base ↓ */
+
+body {
+  max-width: 390px;
+}
+
+.gris {
+  background: #4c4c4c;
+  max-width: 390px;
+  height: 44px;
+}
+
+.container {
+  padding: 15px;
+  position: relative;
+}
+
+.card {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #d8d8d8;
+}
+
+/* card 1 ↓ */
+
+.box-red {
+  width: 40px;
+  height: 80px;
+  background-color: red;
+  position: fixed;
+  left: 0;
+  top: 140px;
+}
+
+.box-grey {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+/* card 2 ↓ */
+
+.box-long-light-grey {
+  width: 360px;
+  height: 44px;
+  position: absolute;
+  bottom: 0;
+  opacity: 58%;
+}
+
+/* card 3 ↓ */
+
+.box-light-grey {
+  width: 320px;
+  height: 165px;
+  opacity: 58%;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+/* card 4 ↓ */
+
+.box-grey2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.box-grey2-2 {
+  left: 45px;
+}
+
+.box-grey2-3 {
+  left: 75px;
+}
+
+.box-rectangle-grey {
+  width: 71px;
+  height: 44px;
+  position: absolute;
+  top: 80px;
+  bottom: 81px;
+  left: 144px;
+  right: 145px;
+}
+
+/* card 5-6 ↓ */
+
+.container-column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  gap: 10px;
+}
+
+.box-rectangle-light-grey {
+  opacity: 58%;
+  width: 175px;
+  height: 44px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* ball ↓ */
+
+.container-ball {
+  position: relative;
+  margin: 38px;
+}
+
+.ball {
+  background-color: red;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 125px;
+}
