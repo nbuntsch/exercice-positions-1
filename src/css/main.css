@@ -115,4 +115,30 @@ body {
 
 /* card 4 ↓ */
 
+.box-grey2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.box-grey2-2 {
+  left: 45px;
+}
+
+.box-grey2-3 {
+  left: 75px;
+}
+
+.box-rectangle-grey {
+  width: 71px;
+  height: 44px;
+  position: absolute;
+  top: 80px;
+  bottom: 81px;
+  left: 144px;
+  right: 145px;
+}
+
 /* card 5-6 ↓ */
